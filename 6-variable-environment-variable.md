@@ -94,13 +94,39 @@ unset ENVIRON_VARIABLE  # 清除环境变量
     PS1="\# \t \u@\H:\w\$ "  # 45 20:17:32 z840@HP-Workstation:~/ALISURE/Linux-Shell$
     ```
 
-* 环境变量配置文件
-   1. 
+##### 环境变量配置文件
 
+* `.bash_profile`
 
+当用户登陆时，Shell会自动执行`.bash_profile`文件。   
+可以在后面添加新的环境变量，但是，新加入的行只有注销用户并再次登录后方可生效。   
+如果需要立即生效，需要用`source`命令执行文件。
 
+```bash
+. .bash_profile
+source .bash_profile  # 这两个等价
+```
 
+> `source`命令也称为`点命令`，即`.`和`source`是等价的，通常用于重新执行刚刚修改的初始化文件，
+使之立即生效，而不必注销重新登录。
 
+> `source`是在当前bash环境下执行命令，执行Shell脚本是启动一个子Shell来执行命令，
+所以用`source`执行脚本后，新环境变量在当前Shell和子Shell中立即生效。
 
+> 当用户登陆时，首先查找是否存在`.bash_profile`文件，若不存在则查找是否存在`.bash_login`文件，
+若也不存在则查找是否存在`.profile`。
+
+* `.bashrc`
+
+> 如果用户由当前的Shell创建一个新的Shell,称为子Shell,
+子Shell尝试读取`.bashrc`中的命令以设置环境变量。
+如果不存在，则不执行。
+
+> `.bashrc`文件使得用户登录时的环境变量设置与子Shell的环境变量设置相分离。
+
+* `.bash_logout`
+
+> 在用户注销时执行，用户可以在该文件中写入清除某些环境变量或记录注销时间等命令。
+如果不存在，则不执行。
 
 
