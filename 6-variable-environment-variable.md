@@ -89,7 +89,7 @@ unset ENVIRON_VARIABLE  # 清除环境变量
     export PATH="/new/path":$PATH
     ```
    4. HOME/SHELL/USER/UID/PPID
-   5.PS1/PS2:提示符变量，设置提示符格式
+   5. PS1/PS2:提示符变量，设置提示符格式
     ```bash
     PS1="\# \t \u@\H:\w\$ "  # 45 20:17:32 z840@HP-Workstation:~/ALISURE/Linux-Shell$
     ```
