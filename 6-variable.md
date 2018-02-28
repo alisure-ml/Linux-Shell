@@ -27,7 +27,7 @@ ${variable}
 ```bash
 variable2="hello world"
 variable3="saying $variable2"
-echo $variable3
+echo "$variable3"
 ```
 
 * 清除变量的值
