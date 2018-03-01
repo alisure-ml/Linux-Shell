@@ -15,7 +15,7 @@
 
 * 变量赋值
 ```bash
-variable=value
+variable=value  # 不能有空格，不然shell就把variable当命令了
 ```
 
 * 变量替换
@@ -41,6 +41,12 @@ echo 变量名  # 显示空白行
 unset variable
 echo ${variable:?value}
 ```
+
+* 命令替换
+```bash
+`command`
+```
+
 
 #### 无类型的Shell脚本变量
 
