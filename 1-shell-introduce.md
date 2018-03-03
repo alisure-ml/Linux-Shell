@@ -14,7 +14,7 @@ CTRL + ALT + T
 ```
 CTRL + ALT + F1 ~ F6 / F7
 ```
-或者远程登录
+* 或者远程登录
 ```
 Putty
 ```
