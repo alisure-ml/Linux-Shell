@@ -1,3 +1,9 @@
+---
+title: Shell file sort
+date: 2018-02-18
+categories: ["shell"]
+tags:
+---
 
 ### file sort
 

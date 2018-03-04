@@ -1,3 +1,9 @@
+---
+title: Shell 内部变量
+date: 2018-02-26
+categories: ["shell"]
+tags:
+---
 
 ### 内部变量
 

@@ -1,3 +1,9 @@
+---
+title: Shell 子Shell与进程处理
+date: 2018-03-01
+categories: ["shell"]
+tags:
+---
 
 ### 子Shell与进程处理
 

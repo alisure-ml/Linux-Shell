@@ -1,3 +1,9 @@
+---
+title: Shell I/O重定向
+date: 2018-02-27
+categories: ["shell"]
+tags:
+---
 
 ### I/O重定向
 

@@ -1,3 +1,9 @@
+---
+title: Shell 变量
+date: 2018-02-20
+categories: ["shell"]
+tags:
+---
 
 ### 变量
 

@@ -1,3 +1,9 @@
+---
+title: Shell 循环与结构化命令
+date: 2018-02-24
+categories: ["shell"]
+tags:
+---
 
 ### 循环与结构化命令
 

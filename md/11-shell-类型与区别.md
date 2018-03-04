@@ -1,3 +1,10 @@
+---
+title: Shell shell
+date: 2018-02-28
+categories: ["shell"]
+tags:
+---
+
 ### shell
 
 #### 两种Shell

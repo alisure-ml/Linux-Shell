@@ -1,3 +1,10 @@
+---
+title: Shell 文件编辑
+date: 2018-02-15
+categories: ["shell"]
+tags:
+---
+
 ## Shell 文件编辑
 
 

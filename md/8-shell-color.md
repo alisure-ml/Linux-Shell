@@ -1,4 +1,9 @@
-# TODO
+---
+title: Shell 终端颜色
+date: 2018-02-25
+categories: ["shell"]
+tags:
+---
 
 ### 终端颜色
 

@@ -1,3 +1,9 @@
+---
+title: Shell 正则表达式
+date: 2018-02-16
+categories: ["shell"]
+tags:
+---
 
 ### 正则表达式
 

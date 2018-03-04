@@ -1,3 +1,9 @@
+---
+title: Shell sed
+date: 2018-02-17
+categories: ["shell"]
+tags:
+---
 
 ### sed
 

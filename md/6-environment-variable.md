@@ -1,3 +1,9 @@
+---
+title: Shell 环境变量
+date: 2018-02-19
+categories: ["shell"]
+tags:
+---
 
 ### 环境变量
 

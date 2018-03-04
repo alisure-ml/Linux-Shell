@@ -1,3 +1,9 @@
+---
+title: Shell 脚本调试技术
+date: 2018-03-06
+categories: ["shell"]
+tags:
+---
 
 ### Shell脚本调试技术
 

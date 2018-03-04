@@ -1,3 +1,9 @@
+---
+title: Shell 别名、列表和数组
+date: 2018-03-03
+categories: ["shell"]
+tags:
+---
 
 ### 别名、列表和数组
 
